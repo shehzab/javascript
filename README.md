@@ -1,5 +1,5 @@
-# javascript
-JavaScript Learning Repository
+# javascript Learning Repository
+
 Welcome to my JavaScript learning journey! This repository is dedicated to documenting my progress, storing code snippets, and sharing resources as I dive into the world of JavaScript development. Whether you're a fellow learner or just curious, feel free to explore the contents of this repository.
 
 #Overview
