@@ -23,7 +23,6 @@ let isLoggedIn = true;
 //symbol => unique type
 
 
-// NON-PRIMITIVE DATA TYPES
 // object
 
 console.log(typeof undefined) // undefined
