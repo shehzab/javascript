@@ -36,3 +36,44 @@ JsUser.greetingTwo = function(){
 
 console.log(JsUser.greeting());
 console.log(JsUser.greetingTwo());
+
+
+
+
+
+
+
+const course = {
+    courseName : "webdevelopment",
+    price : "9999",
+    courseInstructor : "codeOfRamanan"
+
+}
+// course.courseInstructor
+const{courseInstructor : instructor} = course
+// console.log(courseInstructor)
+console.log(instructor)
+
+
+
+const navBar = ({company}) => {
+
+
+}
+
+navbar(company = "CodeOfRamanan")
+
+
+{
+
+    name:"kuttoosan";
+    CourseName1:"WebDevelopment";
+    price:"free";
+}
+
+
+[
+    {},
+    {},
+    {}
+]
