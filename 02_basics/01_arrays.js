@@ -1,62 +1,45 @@
-// Array[]-- a single variable that is used to store multiple values 
+/* Date objects encapsulate an integral number that represents
+ milliseconds since the midnight at the beginning of January 1, 1970, UTC (the epoch)*/
+ 
+ //Date
 
-const myArr = [0,1,2,3,4,5]
+//  let myDate = new Date()
 
-console.log(myArr[1])
+//  console.log(myDate.toString())
+//  console.log(myDate.toDateString())
+//  console.log(myDate.toLocaleString())
+//  console.log(myDate.toJSON())
+//  console.log(myDate.toLocaleDateString())
+//  console.log(myDate.toTimeString()) 
 
-
-
-// Javascript array-copy-operations create shallow copies. 
-//[all standard built-in-copy operations with any javascript objects create shallow copies, rathewr than deep copies ]
-
-/* Shallow copy -- a shallow copy of an object is a copy whose properties share the same references
-(point to the same underlying values ) as those of the source object from which the copy was made
-
-
- Deep copy -- a deep copy of an objedct is copy whose properties do not share the same reference
-as those of the source object from which the copy was made  */ 
+//  console.log(typeof myDate)
 
 
-const myHeros= ["ironman", "spiderman", "superman","batman"];
+//  let createdDate = new Date(2023 , 11 , 8 )
 
-console.log(myHeros.length)
-
- // Array methods 
-
-myArr.push(9)
-myArr.push(8)
-myArr.pop()
-myArr.unshift(0) // value inserts infront of first value / 0th element 
-myArr.shift() //deletes the 0th value from array
-console.log(myArr)
-
-console.log(myArr.includes(8)) //gives true/ false as output 
-console.log(myArr.indexOf(3))
+ 
+//  console.log(createdDate.toDateString())
+ 
 
 
-const newArray = myArr.join()
+//  let createdDate1 = new Date(2023 , 11 , 8 , 22, 30 )
+//  console.log(createdDate1.toLocaleString())
 
+let createdDate2 = new Date("12-08-2023")
+//  console.log(createdDate2.toLocaleString())
 
-console.log(myArr)
-console.log(newArray)
-console.log(typeof newArray)
+let myTimeStamp = Date.now()
+// console.log(myTimeStamp)  
 
+// console.log(createdDate2.getTime())
+// console.log(Math.floor (Date.now()/1000))
 
+let newDate = new Date()
+console.log(newDate)
+console.log(newDate.getMonth()+1)
+console.log(newDate.getDay())
+console.log(newDate.getDate())
 
-// slice, splice
+console.log(`${newDate.getDay()}and/*  */ the time`)
 
-
-console.log("A",myArr)
-
-const myn1 = myArr.slice(1,3)  // in sli
-console.log(myn1);
-console.log("B ", myArr);
-
-
-const myn2 = myArr.splice(1,3)
-console.log("C",myArr)
-console.log(myn2) //splice -- splice changes the original array by removing, replacing, or adding values and returns the affected values.
-console.log(myn1)//slice -- slice returns a piece of the array but it doesn't affect the original array
-
-
-
+ 
