@@ -74,11 +74,61 @@ const newnums = myNumbers.map((num)=> num  + 10)
 
 console.log( newnums)
 
-    
- 
-    
  
      
+//checked if i understand the topics
+
+ const arr = [1,2,3,4,5,5,6,7,8,7,6,7,8,6,5,4,3,6]
+    const newnumbers = arr.map((num) => num * 10 )
+    console.log(newnumbers)
+ const odds = arr.filter((num) => num%2 == 0)
+ console.log(odds)
+
+
+
+
+// reduce()
+/*
+The reduce() method of Array instances executes a user-supplied 
+"reducer" callback function on each element of the array 
+in order, passing in the return value from the calculation
+on the preceding element
+*/
+
+const mynums = [1,2,3,4,5]
+
+// const mytotal = mynums.reduce(function (acc, currval) {
+//     console.log(`acc: ${acc} and currval: ${currval}`)
+//     return acc + currval
+// },0)
+
+
+const mytotal = mynums.reduce((acc,curr) => acc+ curr, 0)
+console.log(mytotal);
+
+const shopingcart = [
+    {
+        itemName : "jsCourse",
+        price : 2999
+    },
+    {
+        itemName : "pyCourse",
+        price : 999
+    },
+    {
+        itemName : "mobile dev Course",
+        price : 9999
+    },
+    {
+        itemName : "data science Course",
+        price : 5699
+    },
+]
+
+const pricetopay = shopingcart.reduce((acc,item)=> acc+ item.price ,0)
+
+console.log(pricetopay)
+
 
 
 
