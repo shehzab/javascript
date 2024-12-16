@@ -4,7 +4,7 @@
 1. [JavaScript Fundamentals](#-javascript-fundamentals)
 2. [Core Language Concepts](#-core-language-concepts)
 3. [Advanced Topics](#-advanced-topics)
-4. [Modern JavaScript](#-modern-javascript)
+4. [Modern JavaScript](#-modern-javascript-es6)
 5. [Web Development](#-web-development)
 6. [Performance and Optimization](#-performance-and-optimization)
 7. [Best Practices](#-best-practices)
