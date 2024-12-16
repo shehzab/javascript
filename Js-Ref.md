@@ -1,14 +1,14 @@
 # 🚀 The Ultimate JavaScript Comprehensive Guide
 
 ## 📖 Table of Contents
-1. [JavaScript Fundamentals](#javascript-fundamentals)
-2. [Core Language Concepts](#core-language-concepts)
-3. [Advanced Topics](#advanced-topics)
-4. [Modern JavaScript](#modern-javascript)
-5. [Web Development](#web-development)
-6. [Performance and Optimization](#performance-and-optimization)
-7. [Best Practices](#best-practices)
-8. [Learning Resources](#learning-resources)
+1. [JavaScript Fundamentals](#-javascript-fundamentals)
+2. [Core Language Concepts](#-core-language-concepts)
+3. [Advanced Topics](#-advanced-topics)
+4. [Modern JavaScript](#-modern-javascript)
+5. [Web Development](#-web-development)
+6. [Performance and Optimization](#-performance-and-optimization)
+7. [Best Practices](#-best-practices)
+8. [Learning Resources](#-learning-resources)
 
 ## 🌟 JavaScript Fundamentals
 
