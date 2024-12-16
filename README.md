@@ -10,7 +10,7 @@ Stay tuned for updates and improvements coming **soon**! ✨
 ---
 
 ## Explore JavaScript Basics 📘  
-You can check out the file **[Js.Ref.md](Js.Ref.md)**, an AI-generated reference covering **JavaScript basics**.  
+You can check out the file **[Js-Ref.md](Js-Ref.md)**, an AI-generated reference covering **JavaScript basics**.  
 It's a helpful guide to quickly learn or revisit essential JavaScript topics and concepts.  
 
 ---
